@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: event-bus
-          image: hodjaev/event-bus
+          image: localhost:32000/event-bus
 ---
 apiVersion: v1
 kind: Service

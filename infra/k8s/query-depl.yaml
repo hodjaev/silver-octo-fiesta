@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: query
-          image: hodjaev/query
+          image: localhost:32000/query
 ---
 apiVersion: v1
 kind: Service

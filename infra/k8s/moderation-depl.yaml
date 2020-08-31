@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: moderation
-          image: hodjaev/moderation
+          image: localhost:32000/moderation
 ---
 apiVersion: v1
 kind: Service

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: comments
-          image: hodjaev/comments
+          image: localhost:32000/comments
 ---
 apiVersion: v1
 kind: Service

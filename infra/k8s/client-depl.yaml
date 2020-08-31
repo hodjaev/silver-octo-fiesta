@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: hodjaev/client
+          image: localhost:32000/client
 ---
 apiVersion: v1
 kind: Service
